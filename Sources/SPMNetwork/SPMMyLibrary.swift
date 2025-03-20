@@ -1,10 +1,10 @@
 
 import Foundation
 
-struct SPMNetwork {
+public struct SPMNetwork {
     private let name = "SPMNetworkName"
     
-    func showName() {
+    public func showName() {
         print("===================")
         print("⚙️ Name is: \(name)")
         print("===================")

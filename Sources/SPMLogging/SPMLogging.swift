@@ -1,10 +1,10 @@
 
 import Foundation
 
-struct SPMLogging {
+public struct SPMLogging {
     private let name = "SPMLoggingName"
     
-    func showName() {
+    public func showName() {
         print("===================")
         print("⚙️ Name is: \(name)")
         print("===================")
